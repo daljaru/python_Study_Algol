@@ -48,3 +48,9 @@ char_lst = list(input())
 list = list(map(int, input().split()))
 
 
+
+#list 초기화ㅡ comprehension으로
+lst_1d = [0 for _ in range(N)]
+lst_2d = [[0 for _ in range(N)] for j in range(N)]
+
+
